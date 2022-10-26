@@ -1,0 +1,93 @@
+.tabulation-container {
+  display: flex;
+  margin: 70px 0;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.tabulation-cards {
+  cursor: pointer;
+  width: 16vw;
+  height: 206.02px;
+  background: #FFFFFF;
+  box-shadow: 0 1.1398px 7.97863px rgba(162, 162, 190, 0.62);
+  border-radius: 2.84951px;
+  margin-top: 16px;
+
+  &-main-page {
+    padding: 34px 56px;
+    display: flex;
+
+    &-left-side {
+      &-title {
+        font-family: 'Museo Sans Rounded', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11.7329px;
+        line-height: 14px;
+        letter-spacing: 0.01em;
+      }
+
+      &-text {
+        font-family: 'Museo Sans Rounded', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 5.2146px;
+        line-height: 8px;
+        color: rgba(0, 0, 0, 0.7);
+      }
+
+      &-description {
+        font-family: 'Museo Sans Rounded', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3.4764px;
+        line-height: 5px;
+        color: #191937;
+      }
+    }
+
+    &-right-side {
+      height: 98.43px;
+
+      &-img {
+        height: 98.43px;
+      }
+    }
+  }
+
+  &-about-page {
+    padding: 22px;
+    display: flex;
+
+    &-left-side {
+      &-title {
+        font-family: 'Museo Sans Rounded', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11.7329px;
+        line-height: 14px;
+        letter-spacing: 0.01em;
+      }
+
+      &-description {
+        margin-top: 6px;
+        max-width: 157.01px;
+        font-family: 'Museo Sans Rounded', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3.4764px;
+        line-height: 5px;
+        color: #191937;
+      }
+    }
+
+    &-right-side {
+      height: 130.08px;
+
+      &-img {
+        height: 130.08px;
+      }
+    }
+  }
+}

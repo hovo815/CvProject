@@ -1,0 +1,18 @@
+.drag-drop-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  gap: 10px;
+  width: 120px;
+  min-height: 153px;
+  border: 1px dashed #191937;
+}
+#file-input-label{
+  display: none;
+}
+.circle{
+  width: 153px;
+  border-radius:  100%;
+}

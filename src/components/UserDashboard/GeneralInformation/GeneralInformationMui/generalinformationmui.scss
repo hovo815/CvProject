@@ -1,0 +1,24 @@
+.general-information-mui{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  &-main-input-button-container{
+    display: flex;
+    justify-content: flex-end;
+    &-save{
+      margin-top: 15px;
+      background-color: #0000EE;
+      color: white;
+      width: 82px;
+      height: 40px;
+      border-radius: 32px;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}
+.general-information-mui-main-input{
+  height: 54px;
+  padding: 0 14px;
+}

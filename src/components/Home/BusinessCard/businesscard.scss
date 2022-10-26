@@ -1,0 +1,36 @@
+.business-card-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 66px;
+}
+
+.business-card{
+    display: flex;
+}
+.business-card-text-block{
+    margin-right: 65px;
+    &-title{
+        font-family: 'Museo Sans Rounded',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        color: #010456;
+    }
+    &-text{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: rgba(0, 0, 0, 0.7);
+        margin-top: 24px;
+        width: 350px;
+        height: 96px;
+        font-family: 'Museo Sans Rounded',sans-serif;
+        margin-left: 24px;
+    }
+}
+.card-img{
+    margin-right: 120px;
+
+}

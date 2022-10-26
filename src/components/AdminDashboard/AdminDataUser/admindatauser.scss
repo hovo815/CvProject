@@ -1,0 +1,69 @@
+.admin-data-user-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1065px;
+  &-table{
+    overflow-y: scroll;
+    width: 1528px;
+    height: 804px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 28px rgba(1, 53, 41, 0.1);
+    border-radius: 10px;
+    &-data1{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 24px;
+      color: #0000EE;
+      font-weight: 400;
+      font-size: 16px;
+      &-name1{
+        width: 290px;
+      }
+      &-email1{
+        width: 211px;
+      }
+      &-phone-number1{
+        width: 300px;
+      }
+      &-created1{
+        width: 210px;
+      }
+      &-unblock-unblock1{
+        width: 300px;
+      }
+    }
+  }
+}
+.admin-data-user-container-table-data2{
+  display: flex;
+  justify-content: space-around;
+  height: 56px;
+  align-items: center;
+  margin-top: 26px;
+  &-name2{
+    width:290px;
+  }
+  &-email2{
+    width: 211px;
+  }
+  &-phone-number2{
+    width: 300px;
+  }
+  &-created2{
+    width: 210px;
+  }
+  &-unblock-unblock2{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    &-button2{
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+      cursor: pointer;
+      background: none;
+      border: none;
+    }
+  }
+}

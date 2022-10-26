@@ -1,0 +1,62 @@
+.about-banner{
+  display: flex;
+  width:100%;
+  height: 319px;
+  background: #F6F4FF;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 136px;
+  & > h1 {
+
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 65px;
+    letter-spacing: 0.01em;
+    color: #010456;
+    font-family: "Museo Sans Rounded" ,sans-serif;
+  }
+  & > p{
+    width: 800px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #38384A;
+    margin-top: 30px;
+  }
+}
+
+.about-main-text{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding-bottom: 166px;
+  &-container{
+
+
+    margin-top: 56px;
+    &-text{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #000000;
+      width: 555px;
+      margin-top: 40px;
+    }
+  }
+  & > h1{
+    font-family: "Museo Sans Rounded",sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #010456;
+  }
+}
+
+.about-img-container{
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  bottom: 77px;
+  right: 61px;
+}

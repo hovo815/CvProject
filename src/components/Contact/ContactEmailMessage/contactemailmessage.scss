@@ -1,0 +1,32 @@
+.email{
+  &-contact-main-input{
+    width: 598px;
+    border-radius: 4px;
+  }
+  &-contact-main-input-message{
+    border-radius: 4px;
+    width: 598px;
+  }
+  &-contact-main-button-container{
+    display: flex;
+    justify-content: flex-end;
+    &-button{
+      display: flex;
+      background-color: blue;
+      width: 192.94px;
+      height: 40px;
+      border-radius: 32px;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}
+
+
+
+
+
+

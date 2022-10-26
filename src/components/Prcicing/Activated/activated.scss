@@ -1,0 +1,27 @@
+.title-active{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 28px rgba(162, 162, 190, 0.16);
+  border-radius: 10px;
+  width: 353px;
+  height: 623px;
+  &-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &-name{
+      font-weight: 400;
+      font-size: 36px;
+      color: #0000EE;
+      font-family: "Museo Sans Rounded", sans-serif;
+
+    }
+    &-activ{
+      font-weight: 400;
+      font-size: 20px;
+      color: #000000;
+      margin-top: 32px;
+    }
+  }
+}

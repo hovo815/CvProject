@@ -1,0 +1,60 @@
+.digital-card-maker-container{
+  display: flex;
+  justify-content: center;
+  background: url("../../../assets/img/home/digitalcardmaker/bg.png") no-repeat center;
+  margin-top: 120px;
+}
+.digital-card-maker-content{
+  width: 882px;
+  height: 539px;
+  background: rgba(175, 205, 211, 0.2);
+  box-shadow: inset -5px -5px 250px rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(42px);
+  border-radius: 50px;
+}
+.digital-card-maker-title{
+  font-family: 'Museo Sans Rounded',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #010456;
+  margin-top: 66px;
+
+}
+.digital-card-content-first-line{
+  display: flex;
+  margin-top:74px;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+.first-line-cards{
+  text-align: center;
+
+}
+.digital-card-content-first-line-title{
+  font-family: 'Museo Sans Rounded',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #0000EE;
+}
+.digital-card-content-first-line-text{
+  font-family: 'Museo Sans Rounded',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+  width: 247px;
+  height: 46px;
+}
+
+.digital-card-content-second-line{
+  display: flex;
+  margin-top: 70px;
+  justify-content: space-evenly;
+}

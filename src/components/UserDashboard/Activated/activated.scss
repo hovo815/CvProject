@@ -1,0 +1,39 @@
+.activated-container{
+  display: flex;
+  background-color: #191937;
+  height: 56px;
+  width: 100%;
+  &-main{
+    display: flex;
+    align-items: center;
+    margin-left: 62px;
+  }
+  &-text{
+    &-h1{
+      color: white;
+      font-weight: 400;
+      font-size: 16px;
+    }
+  }
+  &-button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7B64FF;
+    border-radius: 29px;
+    color: white;
+    margin-left: 16px;
+    padding: 5px;
+  }
+  &-button2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7B64FF;
+    border-radius: 29px;
+    color: white;
+    margin-left: 16px;
+    padding: 5px;
+  }
+}
+

@@ -1,0 +1,102 @@
+.template-main-page {
+  padding: 5%;
+  width: 1123px;
+  height: 897px;
+  box-shadow: 0 4px 28px rgba(162, 162, 190, 0.16);
+  border-radius: 10px;
+  display: flex;
+
+  &-title {
+    font-family: 'Museo Sans Rounded', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 65px;
+    letter-spacing: 0.01em;
+
+  }
+
+  &-text {
+    margin-top: 8px;
+    font-family: 'Museo Sans Rounded', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  &-description {
+    font-family: 'Museo Sans Rounded', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 390px;
+    margin-top: 24px;
+    margin-right: 80px;
+  }
+
+  &-btn {
+    font-family: 'Museo Sans Rounded', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 24px;
+    color: #332E68;
+    border: 1px solid #332E68;
+    border-radius: 10px;
+    background: none;
+    margin-top: 24px;
+    margin-right: 24px;
+    cursor: pointer;
+  }
+  &-interest{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Museo Sans Rounded',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #010456;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 560px;
+    &-text{
+      font-family: 'Museo Sans Rounded',sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      color: #191937;
+      margin-left: 16px;
+     }
+  }
+  & .main-page-img{
+    width: 325px;
+    height: 453px;
+    object-fit: cover;
+  }
+}
+.interests-container{
+  width: 100%;
+
+  &-flex {
+  display: flex;
+    margin-top: 25px;
+    align-items: baseline;
+    & .interests-container-inputs{
+
+    width: 100% !important;
+    margin-top: 24px !important;
+
+  }
+    & .add-interest{
+      border: none;
+      background: none;
+      margin-left: 10px;
+    }
+  }
+}

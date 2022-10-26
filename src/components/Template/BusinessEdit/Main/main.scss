@@ -1,0 +1,206 @@
+.youtube-video-input {
+  margin-top: 24px;
+  min-height: 42px;
+  background: #FFFFFF;
+  border: 1px solid #191937;
+  border-radius: 4px;
+  outline: none;
+  padding-left: 15px;
+}
+
+.contact-info {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  box-shadow: 0 0 4px #9191BB;
+  border-radius: 4px;
+  padding: 16px;
+
+  &-inputs {
+    display: flex;
+    margin-top: 24px;
+
+    &-text {
+      width: 100%;
+    }
+
+    &-btn {
+      margin-left: 13px;
+      background: none;
+      border: none;
+    }
+  }
+}
+
+.business-edit-right-side {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 115px 2% 0 2%;
+
+  & .business-template-main-page {
+    padding: 5% 0;
+    width: 1123px;
+    min-height: 1741px;
+    box-shadow: 0 4px 28px rgb(162 162 190 / 16%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+    &-banner {
+      display: flex;
+      padding: 0 4%;
+
+      &-right-side {
+        margin-top: 51px;
+
+        &-img {
+          width: 357px;
+          height: 604px;
+          border-radius: 10px;
+        }
+      }
+
+      &-left-side {
+        width: 614px;
+        min-height: 733px;
+        box-shadow: -40px 3px 29px rgba(0, 0, 0, 0.3);
+        padding: 40px 40px;
+
+        & .business-banner-left-side-img {
+          margin-top: 70px;
+        }
+
+        &-container {
+          padding-top: 40px;
+          border-top: 1px solid gray;
+          border-right: 1px solid gray;
+
+          &-title {
+            font-family: 'Museo Sans Rounded', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 54px;
+            line-height: 65px;
+            letter-spacing: 0.01em;
+          }
+
+          &-sub-title {
+            font-family: 'Museo Sans Rounded', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: 0.01em;
+            margin-top: 24px;
+          }
+
+          &-name {
+            margin-top: 40px;
+            font-family: 'Museo Sans Rounded', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+          }
+
+          &-description {
+            margin-top: 24px;
+            font-family: 'Museo Sans Rounded', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.01em;
+            white-space: pre-wrap;
+          }
+
+          &-box {
+            display: flex;
+            margin-top: 40px;
+
+            &-buttons {
+              width: 200px;
+              height: 40px;
+              text-align: center;
+              background: #4B48CA;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              padding: 16px 24px;
+              font-family: 'Museo Sans Rounded', sans-serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              color: #FFFFFF;
+              border: none;
+              margin-left: 24px;
+
+              &:first-child {
+                background: none;
+                margin-left: 0;
+                border: 1px solid #FFFFFF;
+              }
+
+            }
+          }
+        }
+      }
+    }
+
+    &-content {
+      padding: 3% 2%;
+
+      &-container {
+        &-top-side {
+          display: flex;
+          margin-top: 60px;
+          padding-bottom: 27px;
+
+          & > img {
+            margin-right: 25px
+          }
+
+          &-sub-titles {
+
+          }
+        }
+
+        &-bot-side {
+          padding-left: 210px;
+
+          &-contact {
+            display: flex;
+            margin-bottom: 37px;
+
+            & > img {
+              margin-right: 27px;
+            }
+          }
+
+          &-socials {
+            margin-top: 21px;
+          }
+
+          &-links {
+            display: flex;
+            width: 60%;
+            justify-content: space-between;
+            margin-top: 21px;
+            & > a {
+              display: flex;
+              width: 100%;
+              justify-content: space-between;
+            }
+            & a > img {
+
+              height: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

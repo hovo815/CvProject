@@ -1,0 +1,67 @@
+.experience-container {
+  box-shadow: 0 0 4px #9191BB;
+  border-radius: 4px;
+  padding: 16px;
+  margin-top: 24px;
+  & .experience-header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 41px;
+    &-button{
+      background: none;
+      border: none;
+      font-weight: 900;
+      cursor: pointer;
+    }
+  }
+
+  &-work-edit-text-inputs {
+    width: 100%;
+  }
+
+  &-date-picker-container {
+    display: flex;
+    margin-top: 16px;
+    justify-content: space-between;
+
+  }
+  & .experience-footer{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+.experience-box{
+  margin-top: 40px;
+  &-title{
+    font-family: 'Museo Sans Rounded', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #332E68;
+
+  }
+  &-date{
+    font-family: 'Museo Sans Rounded',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 8px;
+  }
+  &-description{
+    margin-top: 24px;
+    font-family: 'Museo Sans Rounded',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #191937;
+  }
+  &:first-child{
+    margin-top: 0;
+  }
+}

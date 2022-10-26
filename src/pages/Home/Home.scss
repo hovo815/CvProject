@@ -1,0 +1,120 @@
+.home {
+  background-image: url('../../assets/img/home/homebannerbg.png');
+  min-height: 1010px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-banner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 1010px;
+  width: 100%;
+}
+
+.home-banner-row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 70%;
+}
+
+.home-banner-text {
+  height: 130px;
+  color: #0000EE;
+
+  &-title {
+    width: 545px;
+    font-size: 54px;
+  }
+}
+
+.home-banner-main-text-container {
+  display: flex;
+}
+
+.home-banner-main-content {
+  width: 380px;
+  height: 108px;
+}
+
+.home-banner-main-text {
+  font-family: 'Museo Sans Rounded', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  color: rgba(0, 0, 0, 0.7);
+  width: 453px;
+}
+
+.home-banner-second-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 276px;
+}
+
+.home-banner-main-content-btn-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+
+
+
+  & .home-banner-main-content-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 24px;
+    gap: 10px;
+    width: 196px;
+    height: 64px;
+    background: #0000EE;
+    border-radius: 45px;
+    font-family: 'Museo Sans Rounded', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+  }
+}
+.home-banner-second-content-text {
+  font-family: 'Museo Sans Rounded', sans-serif;
+  font-size: 36px;
+}
+.home-get-started-btn{
+  font-family: 'Museo Sans Rounded',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background: none;
+  font-size: 16px;
+  width: 195px;
+  height: 56px;
+  line-height: 24px;
+  color: #0000EE;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 0 24px;
+  gap: 10px;
+  border: 1px solid #0000EE;
+  border-radius: 36px;
+
+}
+.home-get-started-container{
+  margin-top: 120px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.get-started-link{
+  text-decoration: none;
+}

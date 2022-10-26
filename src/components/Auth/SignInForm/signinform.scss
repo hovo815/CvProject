@@ -1,0 +1,48 @@
+.sign-in-form{
+  margin-top: 101px;
+  display: flex;
+  flex-direction: column;
+  width: 33vw;
+  padding: 40px 80px  86px 80px;
+  background: #FFFFFF;
+  box-shadow: 0 4px 20px rgba(162, 180, 176, 0.47);
+  border-radius: 10px;
+  margin-bottom: 122px;
+  & .sign-in-form-input{
+    margin-top: 56px;
+  }
+  &-checkbox{
+    margin-bottom: 57px;
+  }
+}
+.form-title{
+  font-family: 'Museo Sans Rounded',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 65px;
+  letter-spacing: 0.01em;
+  color: #0000EE;
+  text-align: center;
+}
+.sign-in-link-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 40px;
+}
+.form-links{
+  font-family: 'Museo Sans Rounded', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #0000EE;
+  &:nth-child(1){
+    padding-right: 16px;
+    margin-right: 16px;
+    border-right: 1px solid grey;
+  }
+}

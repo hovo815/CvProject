@@ -1,0 +1,109 @@
+.created-templates{
+  width: 1185px;
+  box-shadow: 0 4px 28px rgba(1, 53, 41, 0.1);
+  border-radius: 10px;
+  &-title{
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    &-name{
+      display: flex;
+      align-items: center;
+      width: 181px;
+      height: 56px;
+      &-title{
+        font-weight: 400;
+        font-size: 16px;
+        color: #010456;
+      }
+      &-text{
+        font-weight: 400;
+        font-size: 16px;
+        color: #38384A;
+      }
+    }
+
+    &-date{
+      display: flex;
+      align-items: center;
+      width: 131px;
+      height: 56px;
+      &-title{
+        font-weight: 400;
+        font-size: 16px;
+        color: #010456;
+      }
+      &-text{
+        font-weight: 400;
+        font-size: 16px;
+        color: #38384A;
+      }
+    }
+
+    &-activated{
+      display: flex;
+      align-items: center;
+      width: 135px;
+      height: 56px;
+      &-title{
+        font-weight: 400;
+        font-size: 16px;
+        color: #010456;
+      }
+      &-text{
+        font-weight: 400;
+        font-size: 16px;
+        color: #38384A;
+      }
+    }
+
+    &-expiration{
+      display: flex;
+      align-items: center;
+      width: 140px;
+      height: 56px;
+      &-title{
+        font-weight: 400;
+        font-size: 16px;
+        color: #010456;
+      }
+      &-text{
+        font-weight: 400;
+        font-size: 16px;
+        color: #38384A;
+      }
+    }
+
+    &-domain{
+      display: flex;
+      align-items: center;
+      width: 318px;
+      height: 56px;
+      &-title{
+        font-weight: 400;
+        font-size: 16px;
+        color: #010456;
+      }
+      &-text{
+        font-weight: 400;
+        font-size: 16px;
+        color: #38384A;
+      }
+    }
+
+    &-change-delete-un-publish{
+      display: flex;
+      justify-content: space-between;
+      width: 258px;
+    }
+    &-border{
+      background-color: #a495fc;
+      height: 0.25px;
+    }
+  }
+}
+.template-delete-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

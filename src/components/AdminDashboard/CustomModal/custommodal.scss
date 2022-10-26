@@ -1,0 +1,22 @@
+.arrow{
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-left: 35px;
+}
+.created-templates-container{
+  display: flex;
+  justify-content: space-evenly;
+  width: 336px;
+  height: 56px;
+  margin-top: 75px;
+  &-active{
+    cursor: pointer;
+    color: #0000EE;
+    border-bottom: 1px solid blue;
+  }
+  &-button{
+    cursor: pointer;
+  }
+}

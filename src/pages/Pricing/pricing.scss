@@ -1,0 +1,323 @@
+.pricing-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 225px 0 275px 0;
+  &-content{
+    &-container {
+      display: flex;
+      justify-content: center;
+      &-text {
+        text-align: center;
+        &-h1 {
+          font-weight: 400;
+          font-size: 54px;
+          color: #010456;
+          font-family: "Museo Sans Rounded", sans-serif;
+        }
+        &-p {
+          margin-top: 28px;
+          font-weight: 400;
+          font-size: 20px;
+          color: rgba(0, 0, 0, 0.7);
+        }
+      }
+    }
+    &-social {
+      display: flex;
+      width: 1130px;
+      justify-content: space-between;
+      margin-top: 80px;
+      &-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        box-shadow: 0 4px 28px rgba(162, 162, 190, 0.16);
+        border-radius: 10px;
+        width: 353px;
+        height: 623px;
+        &-suma {
+          margin-top: 33px;
+          &-h1 {
+            font-weight: 400;
+            font-size: 54px;
+            color: #0000ee;
+            font-family: "Museo Sans Rounded",sans-serif;
+          }
+          &-h2 {
+            text-align: center;
+            margin-top: 24px;
+            color: #0000ee;
+            font-weight: 400;
+            font-size: 36px;
+            font-family: "Museo Sans Rounded",sans-serif;
+          }
+        }
+      }
+      &-customization {
+        margin-top: 33px;
+
+        &-True {
+          display: flex;
+          justify-content: space-between;
+          font-weight: 400;
+          font-size: 20px;
+          color: #38384a;
+          width: 187px;
+        }
+
+        &-Template {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 16px;
+          font-weight: 400;
+          font-size: 20px;
+          color: #38384a;
+          width: 163px;
+        }
+        &-links {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 16px;
+          font-weight: 400;
+          font-size: 20px;
+          color: #38384a;
+          width: 139px;
+        }
+      }
+    }
+    &-ButtonPricing1 {
+      display: flex;
+      width: 273px;
+      justify-content: center;
+      height: 200px;
+      margin-top: 33px;
+    }
+    &-Business {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(344.87deg, #0b0bb8 3.99%, #685ea4 95.11%);
+      box-shadow: 0 25px 45px rgba(162, 162, 190, 0.9);
+      border-radius: 10px;
+      width: 353px;
+      height: 623px;
+      &-conteiner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 10px;
+        width: 353px;
+        height: 623px;
+        &-suma {
+          &-h1 {
+            color: white;
+            font-weight: 400;
+            font-size: 54px;
+            font-family: "Museo Sans Rounded",sans-serif;
+          }
+          &-day {
+            text-align: center;
+            &-h2 {
+              color: white;
+              font-weight: 400;
+              font-size: 36px;
+              font-family: "Museo Sans Rounded",sans-serif;
+              margin-top: 10px;
+            }
+            &-p {
+              color: white;
+              font-weight: 400;
+              font-size: 16px;
+              margin-top: 10px;
+            }
+          }
+        }
+      }
+      &-button {
+        border: none;
+        width: 273px;
+        height: 40px;
+        border-radius: 29px;
+        background-color: white;
+        color: #0000ee;
+        font-family: "Museo Sans Rounded",sans-serif;
+        cursor: pointer;
+      }
+      &-vectorPtichka {
+        display: flex;
+        justify-content: space-between;
+        font-weight: 400;
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.7);
+        width: 181px;
+        color: white;
+      }
+      &-vectorPtichkaName {
+        display: flex;
+        justify-content: space-between;
+        font-weight: 400;
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.7);
+        width: 221px;
+        color: white;
+        margin-top: 16px;
+      }
+      &-vectorPtichkaQr {
+        display: flex;
+        justify-content: space-between;
+        font-weight: 400;
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.7);
+        width: 105px;
+        color: white;
+        margin-top: 16px;
+      }
+      &-vectorPtichkaSoclink {
+        display: flex;
+        justify-content: space-between;
+        font-weight: 400;
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.7);
+        width: 130px;
+        color: white;
+        margin-top: 16px;
+      }
+    }
+    &-Personal {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      box-shadow: 0 4px 28px rgba(162, 162, 190, 0.16);
+      border-radius: 10px;
+      width: 353px;
+      height: 623px;
+      &-h1 {
+        font-weight: 400;
+        font-size: 54px;
+        color: #0000ee;
+        font-family: "Museo Sans Rounded",sans-serif;
+      }
+
+      &-day {
+        text-align: center;
+        &-h2 {
+          text-align: center;
+          margin-top: 24px;
+          font-weight: 400;
+          font-size: 36px;
+          color: #0000ee;
+          font-family: "Museo Sans Rounded",sans-serif;
+        }
+        &-p {
+          text-align: center;
+          margin-top: 8px;
+          color: rgba(0, 0, 0, 0.7);
+        }
+      }
+      &-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        color: white;
+        background-color: #0000ee;
+        width: 273px;
+        height: 40px;
+        border-radius: 29px;
+        cursor: pointer;
+      }
+      &-vectorPtichka1 {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 16px;
+        font-weight: 400;
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.7);
+        width: 200px;
+      }
+      &-vectorPtichka2 {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 16px;
+        font-weight: 400;
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.7);
+        width: 237px;
+      }
+      &-vectorPtichka3 {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 16px;
+        font-weight: 400;
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.7);
+        width: 117px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .pricing-main {
+    display: flex;
+    height: 2885px;
+    &-content{
+      height: 2885px;
+      display: flex;
+      flex-direction: column;
+      &-conteiner{
+        text-align: center;
+        width: 375px;
+        height: 76px;
+        &-text{
+          &-h1{
+            width: 223px;
+            height: 36px;
+            font-weight: 400;
+            font-size: 24px;
+            color: #010456;
+          }
+          &-p{
+            font-weight: 400;
+            font-size: 16px;
+            width: 234px;
+            height: 24px;
+            color: rgba(0, 0, 0, 0.7);
+          }
+        }
+      }
+      &-social{
+        height: 1780px;
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        &-conteiner{
+          width: 321px;
+          height: 465px;
+        }
+      }
+      &-conteine{
+        display: none;
+      }
+      &-Business{
+        width: 321px;
+        height: 693px;;
+      }
+      &-Personal{
+        width: 321px;
+        height: 583px;
+      }
+    }
+  }
+}
+
+
+
+
+

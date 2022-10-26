@@ -1,0 +1,175 @@
+.plans-container{
+  width: 1185px;
+  box-shadow: 0 4px 28px rgba(1, 53, 41, 0.1);
+  border-radius: 10px;
+  &-title{
+    display: flex;
+    &-name{
+      display: flex;
+      align-items: center;
+      width: 140px;
+      height: 56px;
+      & .plans-title-name{
+        margin-left: 16px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #010456;
+      }
+    }
+    &-activated{
+      display: flex;
+      align-items: center;
+      width: 140px;
+      height: 56px;
+      & .plans-title-activated{
+        font-weight: 400;
+        font-size: 16px;
+        color: #010456;
+      }
+    }
+
+    &-expiration{
+      display: flex;
+      align-items: center;
+      width: 140px;
+      height: 56px;
+      & .plans-title-expiration{
+        font-weight: 400;
+        font-size: 16px;
+        color: #010456;
+      }
+    }
+
+    &-price{
+      display: flex;
+      align-items: center;
+      width: 89px;
+      height: 56px;
+      & .plans-title-price{
+        font-weight: 400;
+        font-size: 16px;
+        color: #010456;
+    }
+    }
+    &-discounts{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 56px;
+      & .plans-title-discounts{
+        font-weight: 400;
+        font-size: 16px;
+        color: #010456;
+    }
+    }
+
+  }
+}
+.plans-data{
+  width: 1185px;
+  box-shadow: 0 4px 28px rgba(1, 53, 41, 0.1);
+  border-radius: 10px;
+  &-title{
+    display: flex;
+    &-name{
+      display: flex;
+      align-items: center;
+      width: 140px;
+      height: 56px;
+      & .plans-title-name{
+        margin-left: 16px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #38384A;
+      }
+    }
+    &-activated{
+      display: flex;
+      align-items: center;
+      width: 140px;
+      height: 56px;
+      & .plans-title-activated{
+      font-weight: 400;
+      font-size: 16px;
+      color: #38384A;
+      }
+    }
+    &-expiration{
+      display: flex;
+      align-items: center;
+      width: 140px;
+      height: 56px;
+      & .plans-title-expiration{
+      font-weight: 400;
+      font-size: 16px;
+      color: #38384A;
+    }
+    }
+    &-price{
+      display: flex;
+      align-items: center;
+      width: 89px;
+      height: 56px;
+      & .plans-title-price{
+        font-weight: 400;
+        font-size: 16px;
+        color: #010456;
+    }
+    }
+    &-discounts{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 56px;
+      & .plans-title-discounts{
+        display: flex;
+        justify-content: center;
+        font-weight: 400;
+        font-size: 16px;
+        color: #010456;
+      }
+    }
+  }
+
+}
+.plans-container-buttons{
+  display: flex;
+  width: 1182px;
+  justify-content: flex-end;
+  align-items: center;
+
+  & .plans-container-button{
+    display: flex;
+    align-items: center;
+    &:first-child{
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      width: 95px;
+      height: 50px;
+    }
+    &:last-child{
+      display: flex;
+      align-items: center;
+      border: none;
+      cursor: pointer;
+      background: none;
+      width:64px;
+      height: 74px;
+    }
+  }
+
+}
+.plans-data-title-buttons-container{
+  display: flex;
+}
+.plans-plan-change{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70vh;
+}
+.modal-plans{
+
+}

@@ -1,0 +1,120 @@
+.user-cv{
+  padding: 56px 40px;
+  &-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &-name{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 30%;
+      height: 67px;
+      border: 1px solid #7B64FF;
+      border-radius: 10px;
+    }
+    &-name-h1{
+      font-weight: 400;
+      font-size: 24px;
+    }
+    &-change{
+      display: flex;
+      justify-content: space-evenly;
+      width: 390px;
+      &-domain{
+        color: #010456;
+        font-weight: 400;
+        font-size: 16px;
+      }
+      &-vector-copy-button{
+        background: none;
+        border: none;
+        cursor: pointer;
+      }
+      &-vector-no-active-button1{
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 167px;
+        height: 40px;
+        color: white;
+        border:none;
+        border-radius: 4px;
+      }
+      &-vector-no-active-button2{
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 167px;
+        height: 40px;
+        background-color:white;
+        color: white;
+        border:none;
+        border-radius: 4px;
+      }
+      &-vector-rename-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        background: none;
+        border: 1px solid #7B64FF;
+        border-radius: 4px;
+        cursor: pointer;
+
+      }
+    }
+  }
+  &-user-cv-card-line{
+    padding: 0px 14px;
+    margin-top: 15px;
+  }
+}
+
+.user-cv-pages{
+
+  &-content1{
+    display: flex;
+    justify-content: center;
+    &-content2{
+
+      &-h1{
+        font-weight: 400;
+        font-size: 16px;
+      }
+      &-button{
+        display: flex;
+        justify-content: center;
+        padding: 16px;
+        &-main{
+          display: flex;
+          width: 133px;
+          justify-content: space-between;
+          &-button1{
+            width: 56px;
+            height: 32px;
+            border-radius: 29px;
+            background-color: white;
+            color: #0000EE;
+            border: 1px solid #0000EE;
+            cursor: pointer;
+          }
+          &-button2{
+            width: 56px;
+            height: 32px;
+            border-radius: 29px;
+            background-color:  #0000EE;
+            color: white;
+            border: 1px solid #0000EE;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+
+

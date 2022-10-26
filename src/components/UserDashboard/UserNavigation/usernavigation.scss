@@ -1,0 +1,27 @@
+.general-main{
+  display: flex;
+  justify-content: center;
+  border: 1px black solid;
+  width: 15%;
+  height: auto;
+  background-color: #38384A;
+  padding-top: 80px;
+  &-container{
+    &-link{
+      display: flex;
+      color: white;
+      background: none;
+      border: none;
+      justify-content: flex-start;
+      text-decoration: none;
+      height: 56px;
+      width: 100%;
+      cursor: pointer;
+      &>img{
+        margin-right: 12px;
+      }
+    }
+
+  }
+}
+

@@ -1,0 +1,98 @@
+.orders {
+  width: 1185px;
+  box-shadow: 0 4px 28px rgba(1, 53, 41, 0.1);
+  border-radius: 10px;
+
+  &-title {
+    display: flex;
+
+    &-order-id{
+
+
+      &-text {
+        margin-left: 16px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #010456;
+      }
+
+      &-data-text {
+
+        font-weight: 400;
+        font-size: 16px;
+        color: black;
+      }
+    }
+
+    &-date {
+      display: flex;
+      align-items: center;
+      width: 296px;
+      height: 56px;
+
+      &-text {
+        font-weight: 400;
+        font-size: 16px;
+        color: #010456;
+      }
+
+      &-data-text {
+        font-weight: 400;
+        font-size: 16px;
+        color: #38384A;
+      }
+    }
+
+    &-total {
+      display: flex;
+      align-items: center;
+      width: 179px;
+      height: 56px;
+      &-text {
+        font-weight: 400;
+        font-size: 16px;
+        color: #010456;
+      }
+
+      &-data-text {
+        font-weight: 400;
+        font-size: 16px;
+        color: #38384A;
+      }
+    }
+
+
+
+    &-view-invoice {
+      display: flex;
+      align-items: center;
+      width: 199px;
+      height: 72px;
+
+      &-button {
+        background-color: #7B64FF;
+        width: 167px;
+        height: 40px;
+        cursor: pointer;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        font-weight: 400;
+        font-size: 16px;
+      }
+    }
+  }
+}
+.orders-title-order-id{
+  display: flex;
+  align-items: center;
+  width: 526px;
+  margin-left: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+  height: 56px;
+}
+.syinkd-invoice {
+  background-color: rgba(20, 20, 30, 0.8);
+}

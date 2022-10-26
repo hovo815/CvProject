@@ -1,0 +1,42 @@
+.header {
+  position: absolute;
+  top: 0;
+  padding: 16px 11% 16px 14%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  &-buttons {
+    display: flex;
+
+  }
+
+  &-button {
+    font-family: 'Museo Sans Rounded', sans-serif;
+    font-style: normal;
+    background: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0000EE;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 24px;
+    gap: 10px;
+    height: 40px;
+    border: 1px solid #0000EE;
+    border-radius: 33px;
+    margin-right: 24px;
+    cursor: pointer;
+
+  }
+  & .second {
+
+    background: #0000EE;
+    color: white;
+    margin-right: 40px;
+  }
+}

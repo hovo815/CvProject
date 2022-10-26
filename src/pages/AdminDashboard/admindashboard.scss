@@ -1,0 +1,32 @@
+.admin-page{
+  display: flex;
+  height: 1287px;
+  &-syinkd{
+    background-color: #5537FF;
+    width: 327px;
+    &-h1{
+      display: flex;
+      width: 206px;
+      height: 90px;
+      color: white;
+      font-weight: 900;
+      font-size: 32px;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      align-content: flex-end;
+    }
+    &-img{
+      margin-top: 129px;
+    }
+  }
+  &-admin-dropdown{
+    width: 100%;
+    &-users{
+      margin-left: 24px;
+      margin-top: 50px;
+      color: #010456;
+      font-weight: 400;
+      font-size: 54px;
+    }
+  }
+}

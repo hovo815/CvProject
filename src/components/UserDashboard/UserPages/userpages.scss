@@ -1,0 +1,47 @@
+.pages-main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex-wrap: wrap;
+  &-text {
+    width: 80%;
+    margin-top: 64px;
+    margin-left: 56px;
+
+    &-h1 {
+      color: #010456;
+      font-weight: 400;
+      font-size: 20px;
+      font-family: "Museo Sans Rounded", sans-serif;
+    }
+
+    &-hr {
+      margin-top: 35px;
+      border-bottom: 1px solid rgba(0.5, 0.5, 0.5, 0.1);
+    }
+
+    &-create-new-pages {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 40px;
+    }
+
+    &-create-cv-card {
+      margin-top: 40px;
+      width: 100%;
+      box-shadow: 0 4px 28px rgba(162, 162, 190, 0.16);
+      border-radius: 10px;
+      max-height: 600px;
+      overflow: auto;
+    }
+  }
+}
+
+// .Create-New-Pages-button{
+//     background-color:#0000EE;
+//     color: white;
+//     border: none;
+//     width: 212px;
+//     height: 40px;
+//     border-radius: 32px;
+// }

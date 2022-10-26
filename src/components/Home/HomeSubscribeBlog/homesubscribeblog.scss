@@ -1,0 +1,60 @@
+.home-subscribe-blog {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 210px;
+  &-content {
+    text-align: center;
+
+    &-title {
+      font-family: 'Museo Sans Rounded', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 36px;
+      color: #010456;
+    }
+
+    &-text {
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.7);
+    }
+  }
+
+  &-input {
+    margin-top: 60px;
+    position: relative;
+
+    &-email {
+      border: 1px solid #0000EE;
+      padding: 0 24px;
+      width: 521px;
+      height: 56px;
+      border-radius: 45px;
+      outline: none;
+    }
+
+    &-btn {
+      width: 195px;
+      height: 56px;
+      background: #0000EE;
+      border-radius: 36px;
+      position: absolute;
+      right: 0;
+      border: none;
+      font-family: 'Museo Sans Rounded', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #FFFFFF;
+    }
+  }
+}

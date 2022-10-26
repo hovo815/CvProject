@@ -1,0 +1,16 @@
+.admin-dropdown{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  background-color: #333346;
+  height: 108px;
+  width: 100%;
+  &-container{
+    width: 100px;
+    &-button{
+      cursor: pointer;
+      border: none;
+      background:none;
+    }
+  }
+}
